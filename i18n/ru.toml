@@ -1,0 +1,73 @@
+[date_format]
+  other = "2 Января, 2006"
+[postreadingtime]
+  one = "1 минута"
+  other = "{{ .Count }} минут"
+[recent_posts]
+  other = "Недавние публикации"
+[see_more]
+  other = "Далее"
+[read_more]
+  other = "Читать далее"
+[categories]
+  other = "Категории"
+[category]
+  other = "Категория"
+[tags]
+  other = "Тэги"
+[tag]
+  other = "Тэг"
+[share_post]
+  other = "Поделиться публикацией"
+[check_out]
+  other = "Автор публикации: "
+[about]
+  other = "About"
+[learn_more]
+  other = "Узнать больше"
+[repliestext]
+  other = "Отвечу в течение {{ .Count }} часов."
+[submit]
+  other = "Отправить"
+[404_pagenotfound]
+  other = "Страница не найдена"
+[404_sorry]
+  other = "Страница, которую вы пытаетесь открыть, не существует."
+[404_goback]
+  other = "Вернуться"
+[blog]
+  other = "Новости"
+[contact]
+  other = "Свяжитесь со мной"
+[next_page]
+  other = "Следующая Страница"
+[previous_page]
+  other = "Предыдущая страница"
+[attribution]
+  other = "Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='{{ .Site.Hugo.Version }}' target='_blank' rel='noopener'>Hugo</a>"
+[comments]
+  other = "Комментарии"
+[say_sth]
+  other = "Напишите что-нибудь"
+[name]
+  other = "Ваше имя (обязательно)"
+[email]
+  other = "Ваш email"
+[website]
+  other = "Ваш вебсайт"
+[body]
+  other = "Ваше сообщение"
+[no_comment]
+  other = "Пока пусто."
+[reply]
+  other = "Ответить"
+[btn_reset]
+  other = "Сброс"
+[btn_submitted]
+  other = "Отправлено"
+[btn_sumbit]
+  other = "Отправить"
+[error_msg]
+  other = "Извините, ваше сообщение не отправлено. Проверьте, что указали все обязательные поля и попробуйте еще раз."
+[success_msg]
+  other = "Спасибо за комментарий! Он появится на сайте после модерации!"

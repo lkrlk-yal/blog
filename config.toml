@@ -1,0 +1,111 @@
+# For a description of these parameters, please visit the theme wiki.
+# https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
+baseurl                 = "https://example.com/"
+DefaultContentLanguage  = "ru"
+title                   = "Hugo Future Imperfect Slim"
+theme                   = "hugo-future-imperfect-slim"
+paginate                = 3
+disqusShortname         = ""
+googleAnalytics         = ""
+pluralizeListTitles     = false
+disableLanguages        = [""]
+
+[outputs]
+  home                  = ["html", "json"]
+
+[params]
+  enableCDN             = false
+  cssFiles              = ["default"]
+  jsFiles               = ["default"]
+  highlightjs           = true
+  highlightjsTheme      = "github"
+  highlightjsLang       = ["html", "css", "js", "toml"]
+  viewMorePostsLink     = "/blog/"
+  readingTime           = true
+  socialShare           = ["twitter", "facebook", "email"]
+
+  [params.meta]
+    description         = "A theme by HTML5 UP, ported by Julio Pescador. Slimmed and enhanced by Patrick Collins. Multilingual by StatnMap. Powered by Hugo."
+    author              = "HTML5UP and Hugo"
+    favicon             = false
+    svg                 = true
+    faviconVersion      = "1"
+    msColor             = "#ffffff"
+    iOSColor            = "#ffffff"
+
+  [params.header]
+    navbarTitle         = "Лариса Королькова"
+    dynamicTitles       = false
+    searchMenu          = true
+    shareMenu           = true
+    languageMenu        = false
+
+  [params.intro]
+    header                = "Лариса Королькова"
+    paragraph             = "Психолог по направлению символдрамы в Ялте"
+    rssIntro              = true
+    socialIntro           = true
+    hideWhenSingleColumn  = false
+    alwaysOnHomepage      = false
+
+    [params.intro.pic]
+      src                 = "img/main/logo.jpg"
+      shape               = "circle"
+      width               = ""
+      alt                 = "Hugo Future Imperfect Slim"
+
+  [params.sidebar]
+    about               = "This theme was developed for Hugo static site generator."
+    postAmount          = 3
+    categories          = false
+    categoriesByCount   = false
+
+  [params.footer]
+    rssFooter           = false
+    socialFooter        = true
+
+  [params.staticman]
+    enabled             = false
+    api                 = ""  # No Trailing Slash
+    gitProvider         = ""
+    username            = ""
+    repo                = ""
+    branch              = ""
+
+    [params.staticman.recaptcha]
+      siteKey           = ""
+      encryptedKey      = ""
+
+[menu]
+
+  [[menu.main]]
+    name              = "Обо мне"
+    identifier        = "home"
+    url               = "/"
+    pre               = "<i class='far fa-id-card'></i>"
+    weight            = 1
+
+  [[menu.main]]
+    name              = "Новости"
+    identifier        = "blog"
+    url               = "/blog/"
+    pre               = "<i class='far fa-newspaper'></i>"
+    weight            = 2
+
+  [[menu.main]]
+    name              = "Контакты"
+    identifier        = "contact"
+    url               = "/contact/"
+    pre               = "<i class='far fa-envelope'></i>"
+    weight            = 3
+
+[social]
+  # Social Networks
+  facebook              = "example"
+  whatsapp              = "" # WhatsApp Number
+  instagram             = "example"
+  twitter               = "example"
+  skype                 = ""
+  telegram              = "example"
+  # Email
+  email                 = "example"
